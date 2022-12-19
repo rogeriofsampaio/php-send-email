@@ -14,12 +14,12 @@
   $mail->Port = 587;
   $mail->SMTPSecure = 'tls';
   $mail->SMTPAuth = true;
-  $mail->Username = 'rogeriofsampaio@gmail.com';
-  $mail->Password = '97838427R';
+  $mail->Username = 'email';
+  $mail->Password = 'pass';
 
   //Add o teu email e o teu nome abaixo
-  $mail->setFrom('rogeriofsampaio@gmail.com', 'Rogerio Sampaio');
-  $mail->addAddress('rogeriofsampaio@gmail.com');
+  $mail->setFrom('email', 'email');
+  $mail->addAddress('email');
   $mail->isHTML(true);
 
   //Add o titulo para a tua mensagem
