@@ -1,0 +1,11 @@
+body {
+  font-family: roboto, sans-serif; }
+  body .main {
+    margin-top: 80px;
+    margin-bottom: 80px; }
+    body .main form {
+      margin-top: 26px; }
+    body .main table tbody tr td form {
+      margin-top: 0; }
+
+/*# sourceMappingURL=style.css.map */
